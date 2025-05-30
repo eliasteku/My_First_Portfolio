@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Tweets</title>
+  <meta charset="UTF-8">
+  <title>My Tweets Page</title>
 </head>
 <body>
-  <h1>My Tweets</h1>
 
-  <!-- Embed a tweet (example tweet) -->
-  <blockquote class="twitter-tweet">
-    <p lang="en" dir="ltr">Learning to create webpages step-by-step with ChatGPT! 🚀 #webdev</p>&mdash; Your Name (@yourhandle) <a href="https://twitter.com/yourhandle/status/1234567890123456789">March 1, 2025</a>
-  </blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <header>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+    </ul>
+  </header>
 
-  <p><a href="index.html">Back to Homepage</a></p>
+  <main>
+    <article>
+      <blockquote class="twitter-tweet">
+        <p>Just an example tweet</p>
+        &mdash; YourName <a href="https://twitter.com/example/status/123456789">Date</a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </article>
+
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Made by Elias Teku - <a href="https://yourlink.com" target="_blank">here</a></p>
+  </footer>
+
 </body>
 </html>
